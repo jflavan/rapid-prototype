@@ -11,8 +11,8 @@ module.exports = function(grunt) {
 
     bower_concat: {
       all: {
-        dest: 'builds/developement/js/_bower.js',
-        cssDest: 'builds/developement/css/_bower.css',
+        dest: 'builds/development/js/_bower.js',
+        cssDest: 'builds/development/css/_bower.css',
         mainFiles: {
           bootstrap: ['dist/css/bootstrap.min.css', 'dist/js/bootstrap.min.js'], //fix for bootstrap 3.3.5-3.3.6
         }
